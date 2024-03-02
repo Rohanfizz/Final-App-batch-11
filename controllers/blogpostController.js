@@ -1,4 +1,4 @@
-const BlogPost = require("../models/blogPostModel");
+const BlogPost = require("../models/blogpostModel");
 const AppError = require("../utils/AppError");
 const catchAsync = require("../utils/catchAsync");
 const { NOT_FOUND, OK, CREATED } = require("../utils/statusCodes");
